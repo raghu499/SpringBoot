@@ -11,10 +11,10 @@ import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		/*  first, get and initialize an engine  */
+		/*  first, get and initialize an engine*/
         VelocityEngine ve = new VelocityEngine();
         ve.init();
-        /*  next, get the Template  */
+        /*  next get the Template  */
         Template t = ve.getTemplate("./src/helloworld.vm");
         /*  create a context and add data */
         VelocityContext context = new VelocityContext();
